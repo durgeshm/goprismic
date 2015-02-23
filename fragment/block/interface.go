@@ -1,7 +1,7 @@
 package block
 
 import (
-	"github.com/SoCloz/goprismic/fragment/link"
+	"github.com/durgeshm/goprismic/fragment/link"
 )
 
 type Block interface {

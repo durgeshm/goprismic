@@ -1,8 +1,8 @@
 package fragment
 
 import (
-	"github.com/SoCloz/goprismic/fragment/embed"
-	"github.com/SoCloz/goprismic/fragment/link"
+	"github.com/durgeshm/goprismic/fragment/embed"
+	"github.com/durgeshm/goprismic/fragment/link"
 )
 
 // A embed fragment (see http://oembed.com/)

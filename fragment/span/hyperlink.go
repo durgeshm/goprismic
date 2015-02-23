@@ -3,7 +3,7 @@ package span
 import (
 	"fmt"
 
-	"github.com/SoCloz/goprismic/fragment/link"
+	"github.com/durgeshm/goprismic/fragment/link"
 )
 
 type Hyperlink struct {

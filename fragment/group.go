@@ -3,7 +3,7 @@ package fragment
 import (
 	"fmt"
 
-	"github.com/SoCloz/goprismic/fragment/link"
+	"github.com/durgeshm/goprismic/fragment/link"
 )
 
 type GroupFragments map[string]Interface

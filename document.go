@@ -3,9 +3,9 @@ package goprismic
 import (
 	"time"
 
-	"github.com/SoCloz/goprismic/fragment"
-	"github.com/SoCloz/goprismic/fragment/block"
-	"github.com/SoCloz/goprismic/fragment/link"
+	"github.com/durgeshm/goprismic/fragment"
+	"github.com/durgeshm/goprismic/fragment/block"
+	"github.com/durgeshm/goprismic/fragment/link"
 )
 
 // A document is made of fragments of various types

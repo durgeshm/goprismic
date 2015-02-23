@@ -55,12 +55,16 @@ type Config struct {
 	Timeout time.Duration
 	// Debug mode
 	Debug bool
+
+	// http.Client
+	Client http.Client
 }
 
 // Default configuration
 var DefaultConfig = Config{
 	Workers: 3,
 	Timeout: 5 * time.Second,
+	Client:  http.Client{},
 }
 
 // Api entry point
@@ -71,7 +75,7 @@ func Get(u, accessToken string, cfg Config) (*Api, error) {
 		URL:         u,
 		Config:      cfg,
 		queue:       make(chan work),
-		client:      http.Client{Timeout: cfg.Timeout},
+		client:      cfg.Client,
 	}
 	api.Data.Refs = make([]Ref, 0, 128)
 	err := api.call(api.URL, map[string]string{}, &api.Data)

@@ -7,7 +7,7 @@ import (
 
 	"launchpad.net/gocheck"
 
-	"github.com/SoCloz/goprismic"
+	"github.com/durgeshm/goprismic"
 )
 
 func TestProxy(t *testing.T) { gocheck.TestingT(t) }
